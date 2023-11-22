@@ -8,3 +8,6 @@ from django.contrib import messages
 
 # def logout_user(request):
 #     pass
+
+def create_account(request):
+    return render(request, 'account/create_account.html', {})

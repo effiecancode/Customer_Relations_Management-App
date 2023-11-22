@@ -3,8 +3,8 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 
 # Create your views here.
-def login_user(request):
-    pass
+# def login_user(request):
+#     return render(request, 'Account/login.html', {})
 
-def logout_user(request):
-    pass
+# def logout_user(request):
+#     pass

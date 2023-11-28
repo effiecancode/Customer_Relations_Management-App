@@ -4,13 +4,17 @@
     background-color: #91de65;
 } */
 
+/* .text-center {
+  background-color: #DB4437;
+} */
+
 /* Style for MDB buttons */
 .btn {
     padding: 8px 16px;
     border-radius: 4px;
-    background-color: #f0f0f0;
+    background-color: #0b0b0b;
     color: #91de65;
-    border: none;
+    border-color: solid green;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -18,15 +22,15 @@
   /* Style for Font Awesome icons inside buttons */
   .btn i {
     /* Adjust the icon's appearance */
-    margin-right: 5px; /* Adds some spacing between the icon and text */
+    margin-right: 5px;
   }
 
   /* Change color for Google icon */
   .btn i.fab.fa-google {
-    color: #DB4437; /* Red color */
+    color: #fff;
   }
 
   /* Change color for GitHub icon */
   .btn i.fab.fa-github {
-    color: #211F1F; /* Dark color */
+    color: #fff;
   }
